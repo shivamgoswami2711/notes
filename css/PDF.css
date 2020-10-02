@@ -1,0 +1,27 @@
+:root {
+    --backgredant: linear-gradient(61deg, rgba(206,93,226,0.5382528011204482) 6%, rgba(94,130,244,0.5382528011204482) 79%, rgba(209,168,140,0.5438550420168067) 100%);
+}
+
+body {
+    background: rgb(206, 93, 226);
+    background: var(--backgredant);
+}
+
+main {
+    height: 76vh;
+}
+
+.tab-pane div a {
+    color: #fff;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+.tab-pane>div {
+    padding: 1vmin;
+    background: rgba(94, 130, 244, 0.5382528011204482);
+    margin-bottom: 7px;
+}
+.tab-pane>div:first-child{
+    margin-top: 7px;
+}

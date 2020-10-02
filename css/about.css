@@ -1,0 +1,29 @@
+:root {
+    --backgredant: linear-gradient(239deg, rgba(206, 93, 226, 1) 6%, rgba(94, 157, 244, 1) 79%, rgba(209, 168, 140, 1) 100%);
+}
+
+header {
+    background: rgb(206, 93, 226);
+    background: var(--backgredant);
+}
+header .col-md-7 {
+    padding: 2vmin 1vmin;
+    padding-bottom: 4vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+#about {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: left;
+    padding: 3.5rem;
+
+}
+
+h3 {
+    color: whitesmoke;
+   
+}

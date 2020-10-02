@@ -1,0 +1,7 @@
+:root {
+    --backgredant: linear-gradient(239deg, rgba(206,93,226,0.5382528011204482) 6%, rgba(94,130,244,0.5382528011204482) 79%, rgba(209,168,140,0.5438550420168067) 100%);
+}
+body {
+    background: rgb(206,93,226);
+    background: var(--backgredant);
+}
